@@ -11,6 +11,7 @@ func interact():
 		self.east_face = 12
 		self.south_face = -1
 		
+		$"../J2".flip_faces = false
 		$"../J2".north_face = -1
 		$"../J2".south_face = -1
 		$"../J2".east_face = 0
@@ -49,9 +50,10 @@ func interact():
 ## RESET PUZZLE 2
 	elif east_face == 12:
 		self.east_face = 47
-		self.south_face = 0
+		self.south_face = -1
 		
-		$"../J2".north_face = -1
+		$"../J2".flip_faces = true
+		$"../J2".north_face = 0
 		$"../J2".south_face = -1
 		$"../J2".east_face = -1
 		$"../J2".west_face = -1

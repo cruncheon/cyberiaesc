@@ -96,15 +96,16 @@ func interact():
 	### A1
 		$"../A1".north_face = 0
 		$"../A1".east_face = -1
-		$"../A1".south_face = 0
+		$"../A1".south_face = -1
 		$"../A1".west_face = 47 # THIRD BUTTON
 		$"../A1".top_face = 0
 		$"../A1".bottom_face = 0
 		
+		
 	### B1
 		$"../B1".north_face = 0
 		$"../B1".east_face = -1
-		$"../B1".south_face = 0
+		$"../B1".south_face = -1
 		$"../B1".west_face = -1
 		$"../B1".top_face = 0
 		$"../B1".bottom_face = 0
@@ -116,6 +117,12 @@ func interact():
 		$"../C1".west_face = -1
 		$"../C1".top_face = 0
 		$"../C1".bottom_face = 0
+		
+	### For full tunnel effect
+		$"../A2".north_face = 0
+		$"../B2".north_face = 0
+		$"../A2".flip_faces = true
+		$"../B2".flip_faces = true
 
 # RESET 
 	elif south_face == 12:
@@ -228,3 +235,9 @@ func interact():
 		$"../C1".west_face = -1
 		$"../C1".top_face = -1
 		$"../C1".bottom_face = -1
+		
+	### For full tunnel effect
+		$"../A2".north_face = -1
+		$"../B2".north_face = -1
+		$"../A2".flip_faces = false
+		$"../B2".flip_faces = false
