@@ -9,4 +9,4 @@ func interact():
 		
 	elif south_face == 12:
 		self.south_face = 47
-		$"../C8".north_face = -1
+		$"../C8".north_face = 46
