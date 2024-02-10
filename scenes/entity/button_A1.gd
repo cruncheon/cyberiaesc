@@ -31,7 +31,7 @@ func interact():
 		$"../../Lights/LightG1".omni_range = 3
 		
 		$"../../Lights/LightJ1".light_color = Color("ff4947")
-		$"../../Lights/LightJ1".omni_range = 3
+		$"../../Lights/LightJ1".omni_range = 0
 		
 		
 		

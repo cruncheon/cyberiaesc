@@ -888,4 +888,4 @@ omni_range = 3.0
 [node name="LightJ1" type="OmniLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -9)
 light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 3.0
+omni_range = 0.0
