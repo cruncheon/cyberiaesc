@@ -1,5 +1,3 @@
-@tool
-
 extends "res://addons/level_block/level_block_node.gd"
 
 func interact():
@@ -10,3 +8,4 @@ func interact():
 	elif south_face == 12:
 		self.south_face = 47
 		$"../C8".north_face = 46
+		
