@@ -1,101 +1,18 @@
-[gd_scene load_steps=18 format=3 uid="uid://dpsaib3a8pgyg"]
+[gd_scene load_steps=10 format=3 uid="uid://dpsaib3a8pgyg"]
 
 [ext_resource type="PackedScene" uid="uid://bfwtdy5wmw3ve" path="res://scenes/entity/player.tscn" id="1_3wvre"]
 [ext_resource type="Script" path="res://addons/level_block/level_block_node.gd" id="2_4f1nn"]
 [ext_resource type="Material" uid="uid://c3h65jmsgt8bv" path="res://assets/default_dungeon_material.tres" id="3_3yjex"]
-[ext_resource type="Texture2D" uid="uid://b7ln7mqxo47vh" path="res://assets/tileset.png" id="4_0kq25"]
 [ext_resource type="Texture2D" uid="uid://cw0des0ndtrwv" path="res://assets/tileset-2x.png" id="4_2h1nd"]
-[ext_resource type="Script" path="res://scenes/entity/button_block2.gd" id="6_o7oc8"]
-[ext_resource type="Script" path="res://scenes/entity/button_block1.gd" id="6_y710u"]
-[ext_resource type="Script" path="res://scenes/entity/door.gd" id="7_o43el"]
+[ext_resource type="Script" path="res://scenes/entity/button_A10.gd" id="6_a2pb4"]
+[ext_resource type="Script" path="res://scenes/entity/button_A1.gd" id="6_o7oc8"]
+[ext_resource type="Script" path="res://scenes/entity/button_D9.gd" id="6_y710u"]
 
 [sub_resource type="Sky" id="1"]
 
 [sub_resource type="Environment" id="2"]
 background_mode = 1
 sky = SubResource("1")
-
-[sub_resource type="Animation" id="7"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("L:rotation_degrees")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(0, 0, 0)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("R:rotation_degrees")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(0, 0, 0)]
-}
-
-[sub_resource type="Animation" id="8"]
-resource_name = "open"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("L:rotation_degrees")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(-2, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(0, 89, 0)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("R:rotation_degrees")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(-2, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(0, -89, 0)]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_06ubn"]
-_data = {
-"RESET": SubResource("7"),
-"open": SubResource("8")
-}
-
-[sub_resource type="BoxShape3D" id="3"]
-
-[sub_resource type="QuadMesh" id="4"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pyiqm"]
-cull_mode = 2
-specular_mode = 2
-albedo_texture = ExtResource("4_0kq25")
-metallic_specular = 0.0
-uv1_scale = Vector3(0.05, 0.08, 0)
-uv1_offset = Vector3(3.763, 0, 0)
-texture_filter = 0
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bsl20"]
-cull_mode = 2
-specular_mode = 2
-albedo_texture = ExtResource("4_0kq25")
-metallic_specular = 0.0
-uv1_scale = Vector3(0.05, 0.08, 0)
-uv1_offset = Vector3(3.771, 0, 0)
-texture_filter = 0
 
 [node name="Level" type="Node3D"]
 
@@ -136,7 +53,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -146,7 +62,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -155,8 +70,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -166,7 +79,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -176,7 +88,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -186,7 +97,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -205,12 +115,12 @@ generate_occluders = true
 
 [node name="A10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 8)
-script = ExtResource("2_4f1nn")
+script = ExtResource("6_a2pb4")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
 east_face = 0
-south_face = 0
+south_face = 47
 west_face = 0
 top_face = 0
 bottom_face = 0
@@ -243,7 +153,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -253,7 +162,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -263,7 +171,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -273,7 +180,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -283,7 +189,6 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
 flip_faces = true
 generate_occluders = true
 
@@ -411,6 +316,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+north_face = 46
 top_face = 5
 bottom_face = 71
 generate_occluders = true
@@ -983,50 +889,3 @@ omni_range = 3.0
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -10)
 light_color = Color(1, 0.286275, 0.278431, 1)
 omni_range = 3.0
-
-[node name="Doors" type="Node3D" parent="."]
-
-[node name="Door1" type="AnimatableBody3D" parent="Doors"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
-script = ExtResource("7_o43el")
-
-[node name="Animation" type="AnimationPlayer" parent="Doors/Door1"]
-libraries = {
-"": SubResource("AnimationLibrary_06ubn")
-}
-
-[node name="Shape3D" type="CollisionShape3D" parent="Doors/Door1"]
-shape = SubResource("3")
-
-[node name="L" type="Node3D" parent="Doors/Door1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.996853, 0, 1)
-
-[node name="Mesh" type="MeshInstance3D" parent="Doors/Door1/L"]
-transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 0.5, 0, 0)
-mesh = SubResource("4")
-skeleton = NodePath("../../../../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_pyiqm")
-
-[node name="R" type="Node3D" parent="Doors/Door1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
-
-[node name="Mesh" type="MeshInstance3D" parent="Doors/Door1/R"]
-transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, -0.5, 0, 0)
-material_override = SubResource("StandardMaterial3D_bsl20")
-mesh = SubResource("4")
-skeleton = NodePath("../../../../..")
-
-[node name="Door3" type="AnimatableBody3D" parent="Doors"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 30, 0, -10)
-script = ExtResource("7_o43el")
-
-[node name="Animation" type="AnimationPlayer" parent="Doors/Door3"]
-libraries = {
-"": SubResource("AnimationLibrary_06ubn")
-}
-
-[node name="L" type="Node3D" parent="Doors/Door3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.996024, 0, 1)
-
-[node name="R" type="Node3D" parent="Doors/Door3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
