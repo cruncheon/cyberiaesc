@@ -108,336 +108,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
 [node name="Blocks" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00307655, 0, 0.00391865)
 
-[node name="LevelBlock01" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 4)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 46
-west_face = 46
-top_face = 5
-bottom_face = 71
-generate_occluders = true
-
-[node name="LevelBlock02" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-top_face = 5
-bottom_face = 71
-generate_occluders = true
-
-[node name="LevelBlock03" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 46
-east_face = 46
-top_face = 5
-bottom_face = 71
-generate_occluders = true
-
-[node name="ButtonBlock1" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6)
-script = ExtResource("6_y710u")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 47
-top_face = 5
-bottom_face = 71
-
-[node name="LevelBlock05" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 46
-south_face = 46
-top_face = 5
-bottom_face = 71
-generate_occluders = true
-
-[node name="LevelBlock06" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-south_face = 46
-top_face = 5
-bottom_face = 71
-generate_occluders = true
-
-[node name="LevelBlock07" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-south_face = 46
-west_face = 46
-top_face = 5
-bottom_face = 71
-generate_occluders = true
-
-[node name="LevelBlock08" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 6)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-west_face = 46
-top_face = 5
-bottom_face = 71
-generate_occluders = true
-
-[node name="LevelBlock09" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-top_face = 45
-bottom_face = 45
-generate_occluders = true
-
-[node name="FalseWall" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.02381, 0, 6.00627)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-east_face = 9
-south_face = 0
-top_face = 0
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock10" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock11" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock49" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock50" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock51" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.32831e-09)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock12" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock13" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock19" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock14" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock15" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock16" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock47" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock48" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock18" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock25" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock42" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock43" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock44" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock45" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="LevelBlock46" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -8)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
-
-[node name="ButtonBlock2" type="Node3D" parent="Blocks"]
+[node name="A1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -10)
 script = ExtResource("6_o7oc8")
 material = ExtResource("3_3yjex")
@@ -449,7 +120,401 @@ top_face = 0
 bottom_face = 0
 generate_occluders = true
 
-[node name="LevelBlock17" type="Node3D" parent="Blocks"]
+[node name="A2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="A3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="A4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="A5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="A6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="A7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="A8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="A9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.02381, 0, 6.00627)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+east_face = 0
+south_face = 0
+west_face = 0
+top_face = 0
+bottom_face = 13
+generate_occluders = true
+
+[node name="A10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="B1" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -10)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+top_face = 0
+bottom_face = 0
+generate_occluders = true
+
+[node name="B2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="B3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="B4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="B5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="B6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="B7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="B8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 46
+west_face = 46
+top_face = 5
+bottom_face = 71
+generate_occluders = true
+
+[node name="B9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+west_face = 46
+top_face = 5
+bottom_face = 71
+generate_occluders = true
+
+[node name="B10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+south_face = 46
+west_face = 46
+top_face = 5
+bottom_face = 71
+generate_occluders = true
+
+[node name="C1" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+top_face = 0
+bottom_face = 0
+generate_occluders = true
+
+[node name="C2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 13
+west_face = 13
+top_face = 13
+bottom_face = 13
+generate_occluders = true
+
+[node name="C3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 13
+west_face = 13
+top_face = 13
+bottom_face = 13
+generate_occluders = true
+
+[node name="C4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 13
+west_face = 13
+top_face = 13
+bottom_face = 13
+generate_occluders = true
+
+[node name="C5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 13
+west_face = 13
+top_face = 13
+bottom_face = 13
+generate_occluders = true
+
+[node name="C6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 13
+west_face = 13
+top_face = 13
+bottom_face = 13
+generate_occluders = true
+
+[node name="C7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 13
+west_face = 13
+top_face = 13
+bottom_face = 13
+generate_occluders = true
+
+[node name="C8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+top_face = 5
+bottom_face = 71
+generate_occluders = true
+
+[node name="C9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+top_face = 45
+bottom_face = 45
+generate_occluders = true
+
+[node name="C10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+south_face = 46
+top_face = 5
+bottom_face = 71
+generate_occluders = true
+
+[node name="D1" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -10)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+top_face = 0
+bottom_face = 0
+generate_occluders = true
+
+[node name="D2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="D3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="D4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="D5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="D6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="D7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="D8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 46
+east_face = 46
+top_face = 5
+bottom_face = 71
+generate_occluders = true
+
+[node name="D9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6)
+script = ExtResource("6_y710u")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 47
+top_face = 5
+bottom_face = 71
+
+[node name="D10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+east_face = 46
+south_face = 46
+top_face = 5
+bottom_face = 71
+generate_occluders = true
+
+[node name="E1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -10)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
@@ -460,54 +525,57 @@ top_face = 0
 bottom_face = 0
 generate_occluders = true
 
-[node name="LevelBlock20" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 6)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-south_face = 0
-top_face = 0
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock21" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 6)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-south_face = 0
-west_face = 0
-top_face = 0
-bottom_face = 13
-generate_occluders = true
-
-[node name="LevelBlock22" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 4)
+[node name="E2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -8)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
 north_face = 0
-west_face = 0
-top_face = 0
-bottom_face = 13
+flip_faces = true
 generate_occluders = true
 
-[node name="LevelBlock23" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 4)
+[node name="E3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -6)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-east_face = 0
-top_face = 0
-bottom_face = 13
-generate_occluders = true
 
-[node name="LevelBlock24" type="Node3D" parent="Blocks"]
+[node name="E4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="E5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="E6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="E7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="E8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="E9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="E10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -10)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
@@ -518,7 +586,57 @@ top_face = 0
 bottom_face = 0
 generate_occluders = true
 
-[node name="LevelBlock30" type="Node3D" parent="Blocks"]
+[node name="F2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="F3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="F10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -10)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
@@ -529,7 +647,57 @@ top_face = 0
 bottom_face = 0
 generate_occluders = true
 
-[node name="LevelBlock26" type="Node3D" parent="Blocks"]
+[node name="G2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="G3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="G10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="H1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -10)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
@@ -540,155 +708,8 @@ top_face = 0
 bottom_face = 0
 generate_occluders = true
 
-[node name="LevelBlock27" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock28" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock31" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-south_face = 0
-bottom_face = 4
-generate_occluders = true
-
-[node name="LevelBlock39" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 2, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-south_face = 0
-west_face = 0
-generate_occluders = true
-
-[node name="LevelBlock32" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-south_face = 0
-bottom_face = 4
-generate_occluders = true
-
-[node name="LevelBlock38" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 2, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-south_face = 0
-generate_occluders = true
-
-[node name="LevelBlock33" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-east_face = 0
-south_face = 0
-bottom_face = 4
-generate_occluders = true
-
-[node name="LevelBlock37" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34, 2, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-east_face = 0
-south_face = 0
-generate_occluders = true
-
-[node name="LevelBlock34" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -12)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 8
-west_face = 8
-top_face = 8
-bottom_face = 8
-generate_occluders = true
-
-[node name="LevelBlock35" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -14)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 8
-west_face = 8
-top_face = 8
-bottom_face = 8
-generate_occluders = true
-
-[node name="LevelBlock36" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -16)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-east_face = 8
-west_face = 8
-top_face = 8
-bottom_face = 8
-generate_occluders = true
-
-[node name="LevelBlock40" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -18)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 47
-east_face = 8
-west_face = 8
-top_face = 8
-bottom_face = 8
-generate_occluders = true
-
-[node name="LevelBlock29" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock52" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8)
+[node name="H2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -8)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
@@ -697,27 +718,47 @@ north_face = 0
 flip_faces = true
 generate_occluders = true
 
-[node name="LevelBlock53" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -8)
+[node name="H3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -6)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
 
-[node name="LevelBlock54" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -8)
+[node name="H4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -4)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
 
-[node name="LevelBlock55" type="Node3D" parent="Blocks"]
+[node name="H5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="H6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="H7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="H8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="H9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="H10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -10)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
@@ -728,30 +769,70 @@ top_face = 0
 bottom_face = 0
 generate_occluders = true
 
-[node name="LevelBlock56" type="Node3D" parent="Blocks"]
+[node name="I2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+north_face = 0
+flip_faces = true
+generate_occluders = true
+
+[node name="I3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -2.32831e-09)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 2)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="I10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="J1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -10)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
 north_face = 0
+east_face = 47
 top_face = 0
 bottom_face = 0
 generate_occluders = true
 
-[node name="LevelBlock57" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -10)
-script = ExtResource("2_4f1nn")
-material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
-
-[node name="LevelBlock58" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -8)
+[node name="J2" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -8)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
@@ -760,107 +841,54 @@ north_face = 0
 flip_faces = true
 generate_occluders = true
 
-[node name="LevelBlock59" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -8)
+[node name="J3" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -6)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
 
-[node name="LevelBlock60" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -8)
+[node name="J4" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -4)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
 
-[node name="LevelBlock61" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -10)
+[node name="J5" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -2)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
 
-[node name="LevelBlock62" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -10)
+[node name="J6" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -2.32831e-09)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
 
-[node name="LevelBlock63" type="Node3D" parent="Blocks"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, -10)
+[node name="J7" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 2)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
-texture_sheet = ExtResource("4_2h1nd")
-texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="J8" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 4)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="J9" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 6)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
+
+[node name="J10" type="Node3D" parent="Blocks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 8)
+script = ExtResource("2_4f1nn")
+material = ExtResource("3_3yjex")
 
 [node name="Lights" type="Node3D" parent="."]
 
-[node name="OmniLight3D" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
-light_color = Color(0.379707, 0.431524, 0.679223, 1)
-omni_range = 2.0
+[node name="LightA9" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 6)
+light_color = Color(1, 0.286275, 0.278431, 1)
+omni_range = 4.0
 
-[node name="OmniLight3D2" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="OmniLight3D5" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="OmniLight3D4" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="OmniLight3D6" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="OmniLight3D7" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="OmniLight3D8" type="OmniLight3D" parent="Lights"]
+[node name="LightB8" type="OmniLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 4)
 light_color = Color(0.841404, 0.195406, 0.598891, 1)
 light_energy = 3.0
@@ -868,7 +896,7 @@ light_indirect_energy = 0.0
 light_volumetric_fog_energy = 16.0
 omni_range = 1.484
 
-[node name="OmniLight3D10" type="OmniLight3D" parent="Lights"]
+[node name="LightB9" type="OmniLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 6)
 light_color = Color(0.841404, 0.195406, 0.598891, 1)
 light_energy = 3.0
@@ -876,7 +904,15 @@ light_indirect_energy = 0.0
 light_volumetric_fog_energy = 16.0
 omni_range = 1.484
 
-[node name="OmniLight3D9" type="OmniLight3D" parent="Lights"]
+[node name="LightB10" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 8)
+light_color = Color(0.841404, 0.195406, 0.598891, 1)
+light_energy = 3.0
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 16.0
+omni_range = 1.484
+
+[node name="LightC8" type="OmniLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
 light_color = Color(0.841404, 0.195406, 0.598891, 1)
 light_energy = 3.0
@@ -884,50 +920,62 @@ light_indirect_energy = 0.0
 light_volumetric_fog_energy = 16.0
 omni_range = 1.484
 
-[node name="OmniLight2" type="OmniLight3D" parent="Lights"]
+[node name="LightC9" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
+light_color = Color(0.379707, 0.431524, 0.679223, 1)
+omni_range = 2.0
+
+[node name="LightD8" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
+light_color = Color(0.841404, 0.195406, 0.598891, 1)
+light_energy = 3.0
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 16.0
+omni_range = 1.484
+
+[node name="LightD9" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6)
+light_color = Color(0.841404, 0.195406, 0.598891, 1)
+light_energy = 3.0
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 16.0
+omni_range = 1.484
+
+[node name="LightD10" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 8)
+light_color = Color(0.841404, 0.195406, 0.598891, 1)
+light_energy = 3.0
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 16.0
+omni_range = 1.484
+
+[node name="LightC1" type="OmniLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
 light_color = Color(1, 0.286275, 0.278431, 1)
 omni_range = 8.0
 
-[node name="OmniLight4" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
+[node name="LightC5" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
 light_color = Color(1, 0.286275, 0.278431, 1)
 omni_range = 6.0
 
-[node name="OmniLight3" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 6)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 4.0
+[node name="LightC10" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+light_color = Color(0.841404, 0.195406, 0.598891, 1)
+light_energy = 3.0
+light_indirect_energy = 0.0
+light_volumetric_fog_energy = 16.0
+omni_range = 1.484
 
-[node name="OmniLight5" type="OmniLight3D" parent="Lights"]
+[node name="LightG1" type="OmniLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -10)
 light_color = Color(1, 0.286275, 0.278431, 1)
 omni_range = 3.0
 
-[node name="OmniLight9" type="OmniLight3D" parent="Lights"]
+[node name="LightJ1" type="OmniLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -10)
 light_color = Color(1, 0.286275, 0.278431, 1)
 omni_range = 3.0
-
-[node name="OmniLight10" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -10)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 3.0
-
-[node name="OmniLight6" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -10)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 3.0
-
-[node name="OmniLight7" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.0999, 2, -10)
-light_color = Color(0, 1, 0.329412, 1)
-omni_range = 6.0
-
-[node name="OmniLight8" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, -15.6651)
-light_color = Color(0.74902, 0.380392, 1, 1)
-omni_range = 4.32565
 
 [node name="Doors" type="Node3D" parent="."]
 
@@ -970,23 +1018,8 @@ libraries = {
 "": SubResource("AnimationLibrary_06ubn")
 }
 
-[node name="Shape3D" type="CollisionShape3D" parent="Doors/Door3"]
-shape = SubResource("3")
-
 [node name="L" type="Node3D" parent="Doors/Door3"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.996024, 0, 1)
 
-[node name="Mesh" type="MeshInstance3D" parent="Doors/Door3/L"]
-transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 0.5, 0, 0)
-mesh = SubResource("4")
-skeleton = NodePath("../../../../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_pyiqm")
-
 [node name="R" type="Node3D" parent="Doors/Door3"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
-
-[node name="Mesh" type="MeshInstance3D" parent="Doors/Door3/R"]
-transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, -0.5, 0, 0)
-material_override = SubResource("StandardMaterial3D_bsl20")
-mesh = SubResource("4")
-skeleton = NodePath("../../../../..")

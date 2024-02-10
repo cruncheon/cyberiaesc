@@ -16,14 +16,9 @@ func interact():
 		$"../../Lights/OmniLight5".light_color = Color("ffdabf")
 		$"../../Lights/OmniLight5".omni_range = 6
 		
-		$"../../Lights/OmniLight6".light_color = Color("ffdabf")
-		$"../../Lights/OmniLight6".omni_range = 6
-		
 		$"../../Lights/OmniLight9".light_color = Color("ffdabf")
 		$"../../Lights/OmniLight9".omni_range = 6
 		
-		$"../../Lights/OmniLight10".light_color = Color("ffdabf")
-		$"../../Lights/OmniLight10".omni_range = 6
 		
 	elif west_face == 12:
 		self.west_face = 47
@@ -35,14 +30,8 @@ func interact():
 		$"../../Lights/OmniLight5".light_color = Color("ff4947")
 		$"../../Lights/OmniLight5".omni_range = 3
 		
-		$"../../Lights/OmniLight6".light_color = Color("ff4947")
-		$"../../Lights/OmniLight6".omni_range = 3
-		
 		$"../../Lights/OmniLight9".light_color = Color("ff4947")
 		$"../../Lights/OmniLight9".omni_range = 3
-		
-		$"../../Lights/OmniLight10".light_color = Color("ff4947")
-		$"../../Lights/OmniLight10".omni_range = 3
 		
 		
 		

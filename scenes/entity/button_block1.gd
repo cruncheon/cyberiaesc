@@ -8,14 +8,14 @@ extends "res://addons/level_block/level_block_node.gd"
 func interact():
 	if east_face == 47:
 		self.east_face = 12
-		$"../FalseWall".east_face = -1
-		$"../LevelBlock08".west_face = -1
+		$"../a9".east_face = -1
+		$"../b9".west_face = -1
 		
 		## TODO: Add "A Secret Has Been Revealed" text
 		
 	elif east_face == 12:
 		self.east_face = 47
-		$"../FalseWall".east_face = 46
-		$"../LevelBlock08".west_face = 46
+		$"../a9".east_face = 46
+		$"../b9".west_face = 46
 		
 

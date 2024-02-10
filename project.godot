@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="BitCrawl"
+config/name="CyberiaESC"
+config/description="A cyberdelic escape room with grid-based 90° movement. Made for Godot Wild Jam #66."
 run/main_scene="res://scenes/level1.tscn"
 config/features=PackedStringArray("4.2")
 config/icon="res://icon.png"
