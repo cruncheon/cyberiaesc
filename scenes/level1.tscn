@@ -32,11 +32,9 @@ script = ExtResource("6_o7oc8")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-west_face = 47
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A1"]
+omni_range = 0.0
 
 [node name="A2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -7)
@@ -44,9 +42,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A2"]
+omni_range = 0.0
 
 [node name="A3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -5)
@@ -54,8 +52,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-flip_faces = true
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A3"]
+omni_range = 0.0
 
 [node name="A4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -3)
@@ -63,16 +62,19 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-flip_faces = true
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A4"]
+omni_range = 0.0
 
 [node name="A5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
-flip_faces = true
-generate_occluders = true
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A5"]
+omni_range = 0.0
 
 [node name="A6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 1)
@@ -80,8 +82,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-flip_faces = true
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A6"]
+omni_range = 0.0
 
 [node name="A7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 3)
@@ -89,8 +92,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-flip_faces = true
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A7"]
+omni_range = 0.0
 
 [node name="A8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 5)
@@ -98,8 +102,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-flip_faces = true
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A8"]
+omni_range = 0.0
 
 [node name="A9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 7)
@@ -107,12 +112,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-east_face = 0
-west_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A9"]
+omni_range = 0.0
 
 [node name="A10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 9)
@@ -120,12 +122,9 @@ script = ExtResource("6_a2pb4")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-east_face = 0
-south_face = 47
-west_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/A10"]
+omni_range = 0.0
 
 [node name="B1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -9)
@@ -133,10 +132,10 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/B1"]
+omni_range = 0.0
 
 [node name="B2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -7)
@@ -145,8 +144,10 @@ material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
 north_face = 0
-flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/B2"]
+omni_range = 0.0
 
 [node name="B3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -5)
@@ -157,6 +158,9 @@ texture_size = 512.0
 flip_faces = true
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/B3"]
+omni_range = 0.0
+
 [node name="B4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -3)
 script = ExtResource("2_4f1nn")
@@ -165,6 +169,9 @@ texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
 flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/B4"]
+omni_range = 0.0
 
 [node name="B5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -1)
@@ -175,6 +182,9 @@ texture_size = 512.0
 flip_faces = true
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/B5"]
+omni_range = 0.0
+
 [node name="B6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 1)
 script = ExtResource("2_4f1nn")
@@ -184,6 +194,9 @@ texture_size = 512.0
 flip_faces = true
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/B6"]
+omni_range = 0.0
+
 [node name="B7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 3)
 script = ExtResource("2_4f1nn")
@@ -192,6 +205,9 @@ texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
 flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/B7"]
+omni_range = 0.0
 
 [node name="B8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 5)
@@ -205,6 +221,10 @@ top_face = 5
 bottom_face = 71
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/B8"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
+
 [node name="B9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 7)
 script = ExtResource("2_4f1nn")
@@ -215,6 +235,10 @@ west_face = 46
 top_face = 5
 bottom_face = 71
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/B9"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
 
 [node name="B10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 9)
@@ -228,16 +252,19 @@ top_face = 5
 bottom_face = 71
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/B10"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
+
 [node name="C1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C1"]
+omni_range = 0.0
 
 [node name="C2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -7)
@@ -245,11 +272,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C2"]
+omni_range = 0.0
 
 [node name="C3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -5)
@@ -257,11 +282,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C3"]
+omni_range = 0.0
 
 [node name="C4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -3)
@@ -269,11 +292,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C4"]
+omni_range = 0.0
 
 [node name="C5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -1)
@@ -281,11 +302,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C5"]
+omni_range = 0.0
 
 [node name="C6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 1)
@@ -293,11 +312,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C6"]
+omni_range = 0.0
 
 [node name="C7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 3)
@@ -305,11 +322,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-east_face = 13
-west_face = 13
-top_face = 13
-bottom_face = 13
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C7"]
+omni_range = 0.0
 
 [node name="C8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 5)
@@ -322,6 +337,10 @@ top_face = 5
 bottom_face = 71
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/C8"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
+
 [node name="C9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 7)
 script = ExtResource("2_4f1nn")
@@ -331,6 +350,10 @@ texture_size = 512.0
 top_face = 45
 bottom_face = 45
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/C9"]
+light_color = Color(0, 0.666667, 0.470588, 1)
+omni_range = 1.5
 
 [node name="C10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 9)
@@ -343,16 +366,19 @@ top_face = 5
 bottom_face = 71
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/C10"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
+
 [node name="D1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/D1"]
+omni_range = 0.0
 
 [node name="D2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -7)
@@ -360,9 +386,10 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/D2"]
+omni_range = 0.0
 
 [node name="D3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -5)
@@ -370,11 +397,17 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 
+[node name="Light" type="OmniLight3D" parent="Blocks/D3"]
+omni_range = 0.0
+
 [node name="D4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+
+[node name="Light" type="OmniLight3D" parent="Blocks/D4"]
+omni_range = 0.0
 
 [node name="D5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1)
@@ -382,17 +415,26 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 
+[node name="Light" type="OmniLight3D" parent="Blocks/D5"]
+omni_range = 0.0
+
 [node name="D6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 
+[node name="Light" type="OmniLight3D" parent="Blocks/D6"]
+omni_range = 0.0
+
 [node name="D7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+
+[node name="Light" type="OmniLight3D" parent="Blocks/D7"]
+omni_range = 0.0
 
 [node name="D8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 5)
@@ -406,6 +448,10 @@ top_face = 5
 bottom_face = 71
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/D8"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
+
 [node name="D9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 7)
 script = ExtResource("6_y710u")
@@ -415,6 +461,10 @@ texture_size = 512.0
 east_face = 47
 top_face = 5
 bottom_face = 71
+
+[node name="Light" type="OmniLight3D" parent="Blocks/D9"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
 
 [node name="D10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 9)
@@ -428,16 +478,19 @@ top_face = 5
 bottom_face = 71
 generate_occluders = true
 
+[node name="Light" type="OmniLight3D" parent="Blocks/D10"]
+light_color = Color(0.784314, 0, 0.521569, 1)
+omni_range = 1.5
+
 [node name="E1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E1"]
+omni_range = 0.0
 
 [node name="E2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -7)
@@ -445,57 +498,90 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E2"]
+omni_range = 0.0
 
 [node name="E3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E3"]
+omni_range = 0.0
 
 [node name="E4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E4"]
+omni_range = 0.0
 
 [node name="E5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E5"]
+omni_range = 0.0
 
 [node name="E6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E6"]
+omni_range = 0.0
 
 [node name="E7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E7"]
+omni_range = 0.0
 
 [node name="E8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E8"]
+omni_range = 0.0
 
 [node name="E9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 7)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E9"]
+omni_range = 0.0
 
 [node name="E10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/E10"]
+omni_range = 0.0
 
 [node name="F1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -9)
@@ -503,10 +589,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F1"]
+omni_range = 0.0
 
 [node name="F2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -7)
@@ -514,57 +599,90 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F2"]
+omni_range = 0.0
 
 [node name="F3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F3"]
+omni_range = 0.0
 
 [node name="F4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F4"]
+omni_range = 0.0
 
 [node name="F5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F5"]
+omni_range = 0.0
 
 [node name="F6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F6"]
+omni_range = 0.0
 
 [node name="F7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F7"]
+omni_range = 0.0
 
 [node name="F8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F8"]
+omni_range = 0.0
 
 [node name="F9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 7)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F9"]
+omni_range = 0.0
 
 [node name="F10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/F10"]
+omni_range = 0.0
 
 [node name="G1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -9)
@@ -572,10 +690,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G1"]
+omni_range = 0.0
 
 [node name="G2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -7)
@@ -583,57 +700,90 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G2"]
+omni_range = 0.0
 
 [node name="G3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G3"]
+omni_range = 0.0
 
 [node name="G4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G4"]
+omni_range = 0.0
 
 [node name="G5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G5"]
+omni_range = 0.0
 
 [node name="G6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G6"]
+omni_range = 0.0
 
 [node name="G7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G7"]
+omni_range = 0.0
 
 [node name="G8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G8"]
+omni_range = 0.0
 
 [node name="G9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 7)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G9"]
+omni_range = 0.0
 
 [node name="G10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/G10"]
+omni_range = 0.0
 
 [node name="H1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -9)
@@ -641,10 +791,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H1"]
+omni_range = 0.0
 
 [node name="H2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -7)
@@ -652,57 +801,90 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H2"]
+omni_range = 0.0
 
 [node name="H3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H3"]
+omni_range = 0.0
 
 [node name="H4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H4"]
+omni_range = 0.0
 
 [node name="H5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H5"]
+omni_range = 0.0
 
 [node name="H6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H6"]
+omni_range = 0.0
 
 [node name="H7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H7"]
+omni_range = 0.0
 
 [node name="H8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H8"]
+omni_range = 0.0
 
 [node name="H9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 7)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H9"]
+omni_range = 0.0
 
 [node name="H10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/H10"]
+omni_range = 0.0
 
 [node name="I1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -9)
@@ -710,10 +892,9 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I1"]
+omni_range = 0.0
 
 [node name="I2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -7)
@@ -721,57 +902,90 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
 generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I2"]
+omni_range = 0.0
 
 [node name="I3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I3"]
+omni_range = 0.0
 
 [node name="I4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I4"]
+omni_range = 0.0
 
 [node name="I5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I5"]
+omni_range = 0.0
 
 [node name="I6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I6"]
+omni_range = 0.0
 
 [node name="I7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I7"]
+omni_range = 0.0
 
 [node name="I8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I8"]
+omni_range = 0.0
 
 [node name="I9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 7)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I9"]
+omni_range = 0.0
 
 [node name="I10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/I10"]
+omni_range = 0.0
 
 [node name="J1" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -9)
@@ -779,11 +993,9 @@ script = ExtResource("8_4h6s5")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-east_face = 47
-top_face = 0
-bottom_face = 0
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J1"]
+omni_range = 0.0
 
 [node name="J2" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -7)
@@ -791,155 +1003,86 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
-north_face = 0
-flip_faces = true
-generate_occluders = true
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J2"]
+omni_range = 0.0
 
 [node name="J3" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J3"]
+omni_range = 0.0
 
 [node name="J4" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J4"]
+omni_range = 0.0
 
 [node name="J5" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J5"]
+omni_range = 0.0
 
 [node name="J6" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J6"]
+omni_range = 0.0
 
 [node name="J7" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J7"]
+omni_range = 0.0
 
 [node name="J8" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J8"]
+omni_range = 0.0
 
 [node name="J9" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 7)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
+
+[node name="Light" type="OmniLight3D" parent="Blocks/J9"]
+omni_range = 0.0
 
 [node name="J10" type="Node3D" parent="Blocks"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 9)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+texture_size = 512.0
 
-[node name="Lights" type="Node3D" parent="."]
-
-[node name="LightA9" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 7)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 1.41406
-
-[node name="LightA10" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 9)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 1.41406
-
-[node name="LightB8" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 5)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightB9" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 7)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightB10" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 9)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightC1" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -9)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 8.0
-
-[node name="LightC5" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -1)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 6.0
-
-[node name="LightC8" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 5)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightC9" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 7)
-light_color = Color(0.379707, 0.431524, 0.679223, 1)
-omni_range = 2.0
-
-[node name="LightC10" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 9)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightD8" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 5)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightD9" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 7)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightD10" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 9)
-light_color = Color(0.841404, 0.195406, 0.598891, 1)
-light_energy = 3.0
-light_indirect_energy = 0.0
-light_volumetric_fog_energy = 16.0
-omni_range = 1.484
-
-[node name="LightG1" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -9)
-light_color = Color(1, 0.286275, 0.278431, 1)
-omni_range = 3.0
-
-[node name="LightJ1" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -9)
-light_color = Color(1, 0.286275, 0.278431, 1)
+[node name="Light" type="OmniLight3D" parent="Blocks/J10"]
 omni_range = 0.0
