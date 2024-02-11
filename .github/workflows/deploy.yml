@@ -16,7 +16,7 @@ jobs:
       image: barichello/godot-ci:4.2.1
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       - name: Setup
         run: |
@@ -38,7 +38,7 @@ jobs:
           path: project/${{ env.EXPORT_NAME }}/build/web
 
       - name: Publish to itch.io
-        uses: josephbmanley/butler-publish-itchio-action@v1.0.2
+        uses: manleydev/butler-publish-itchio-action@master
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
           CHANNEL: web
@@ -49,6 +49,6 @@ jobs:
       - name: Notify Discord Channel
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        uses: Ilshidur/action-discord@0.3.0
+        uses: Ilshidur/action-discord@master
         with:
           args: 'A game update is available at https://portzero.itch.io/cyberiaesc !'
