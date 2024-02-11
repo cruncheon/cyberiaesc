@@ -34,6 +34,7 @@ script = ExtResource("2_dpf2i")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A1"]
 omni_range = 0.0
@@ -44,6 +45,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A2"]
 omni_range = 0.0
@@ -54,6 +56,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A3"]
 omni_range = 0.0
@@ -64,6 +67,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A4"]
 omni_range = 0.0
@@ -74,6 +78,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A5"]
 omni_range = 0.0
@@ -84,6 +89,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A6"]
 omni_range = 0.0
@@ -94,6 +100,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A7"]
 omni_range = 0.0
@@ -104,6 +111,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A8"]
 omni_range = 0.0
@@ -114,6 +122,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A9"]
 omni_range = 0.0
@@ -124,6 +133,7 @@ script = ExtResource("6_qn0k7")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/A10"]
 omni_range = 0.0
@@ -263,6 +273,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/C1"]
 omni_range = 0.0
@@ -273,6 +284,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/C2"]
 omni_range = 0.0
@@ -283,6 +295,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/C3"]
 omni_range = 0.0
@@ -293,6 +306,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/C4"]
 omni_range = 0.0
@@ -303,6 +317,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/C5"]
 omni_range = 0.0
@@ -313,6 +328,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/C6"]
 omni_range = 0.0
@@ -323,6 +339,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/C7"]
 omni_range = 0.0
@@ -377,6 +394,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/D1"]
 omni_range = 0.0
@@ -397,6 +415,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -5)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/D3"]
 omni_range = 0.0
@@ -406,6 +425,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/D4"]
 omni_range = 0.0
@@ -415,6 +435,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/D5"]
 omni_range = 0.0
@@ -424,6 +445,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/D6"]
 omni_range = 0.0
@@ -433,6 +455,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 3)
 script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/D7"]
 omni_range = 0.0
@@ -462,6 +485,7 @@ texture_size = 512.0
 east_face = 47
 top_face = 5
 bottom_face = 71
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/D9"]
 light_color = Color(0.784314, 0, 0.521569, 1)
@@ -489,6 +513,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E1"]
 omni_range = 0.0
@@ -510,6 +535,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E3"]
 omni_range = 0.0
@@ -520,6 +546,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E4"]
 omni_range = 0.0
@@ -530,6 +557,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E5"]
 omni_range = 0.0
@@ -540,6 +568,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E6"]
 omni_range = 0.0
@@ -550,6 +579,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E7"]
 omni_range = 0.0
@@ -560,6 +590,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E8"]
 omni_range = 0.0
@@ -570,6 +601,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E9"]
 omni_range = 0.0
@@ -580,6 +612,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/E10"]
 omni_range = 0.0
@@ -590,6 +623,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F1"]
 omni_range = 0.0
@@ -611,6 +645,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F3"]
 omni_range = 0.0
@@ -621,6 +656,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F4"]
 omni_range = 0.0
@@ -631,6 +667,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F5"]
 omni_range = 0.0
@@ -641,6 +678,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F6"]
 omni_range = 0.0
@@ -651,6 +689,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F7"]
 omni_range = 0.0
@@ -661,6 +700,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F8"]
 omni_range = 0.0
@@ -671,6 +711,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F9"]
 omni_range = 0.0
@@ -681,6 +722,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/F10"]
 omni_range = 0.0
@@ -691,6 +733,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G1"]
 omni_range = 0.0
@@ -712,6 +755,7 @@ script = ExtResource("8_1w14v")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G3"]
 omni_range = 0.0
@@ -722,6 +766,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G4"]
 omni_range = 0.0
@@ -732,6 +777,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G5"]
 omni_range = 0.0
@@ -742,6 +788,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G6"]
 omni_range = 0.0
@@ -752,6 +799,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G7"]
 omni_range = 0.0
@@ -762,6 +810,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G8"]
 omni_range = 0.0
@@ -772,6 +821,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G9"]
 omni_range = 0.0
@@ -782,6 +832,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/G10"]
 omni_range = 0.0
@@ -792,6 +843,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H1"]
 omni_range = 0.0
@@ -813,6 +865,7 @@ script = ExtResource("8_jjxe1")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H3"]
 omni_range = 0.0
@@ -823,6 +876,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H4"]
 omni_range = 0.0
@@ -833,6 +887,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H5"]
 omni_range = 0.0
@@ -843,6 +898,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H6"]
 omni_range = 0.0
@@ -853,6 +909,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H7"]
 omni_range = 0.0
@@ -863,6 +920,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H8"]
 omni_range = 0.0
@@ -873,6 +931,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H9"]
 omni_range = 0.0
@@ -883,6 +942,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/H10"]
 omni_range = 0.0
@@ -893,6 +953,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I1"]
 omni_range = 0.0
@@ -914,6 +975,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I3"]
 omni_range = 0.0
@@ -924,6 +986,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I4"]
 omni_range = 0.0
@@ -934,6 +997,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I5"]
 omni_range = 0.0
@@ -944,6 +1008,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I6"]
 omni_range = 0.0
@@ -954,6 +1019,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I7"]
 omni_range = 0.0
@@ -964,6 +1030,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I8"]
 omni_range = 0.0
@@ -974,6 +1041,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I9"]
 omni_range = 0.0
@@ -984,6 +1052,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/I10"]
 omni_range = 0.0
@@ -994,6 +1063,7 @@ script = ExtResource("8_5ojtj")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J1"]
 omni_range = 0.0
@@ -1004,6 +1074,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J2"]
 omni_range = 0.0
@@ -1014,6 +1085,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J3"]
 omni_range = 0.0
@@ -1024,6 +1096,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J4"]
 omni_range = 0.0
@@ -1034,6 +1107,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J5"]
 omni_range = 0.0
@@ -1044,6 +1118,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J6"]
 omni_range = 0.0
@@ -1054,6 +1129,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J7"]
 omni_range = 0.0
@@ -1064,6 +1140,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J8"]
 omni_range = 0.0
@@ -1074,6 +1151,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J9"]
 omni_range = 0.0
@@ -1084,6 +1162,7 @@ script = ExtResource("2_4f1nn")
 material = ExtResource("3_3yjex")
 texture_sheet = ExtResource("4_2h1nd")
 texture_size = 512.0
+generate_occluders = true
 
 [node name="Light" type="OmniLight3D" parent="Blocks/J10"]
 omni_range = 0.0
