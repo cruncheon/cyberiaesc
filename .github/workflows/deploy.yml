@@ -28,7 +28,7 @@ jobs:
       - name: Web Build
         run: |
           mkdir -v -p build/web
-          godot -v --export-release "HTML5" ./build/web/index.html
+          godot -v --headless --export-release "HTML5" ./build/web/index.html
 
       - name: Publish to itch.io
         uses: manleydev/butler-publish-itchio-action@master
