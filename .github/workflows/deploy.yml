@@ -30,8 +30,7 @@ jobs:
       - name: Web Build
         run: |
           mkdir -v -p build/web
-          CD $PROJECT_PATH
-          godot --headless --verbose --export-release "Web" ../build/web/index.html
+          godot --headless --verbose --export-release "Web" ./build/web/index.html
 
       - name: Deploy to Itch
         uses: manleydev/butler-publish-itchio-action@master
